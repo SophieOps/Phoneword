@@ -9,7 +9,7 @@ namespace Phoneword
 		public App ()
 		{
 			// The root page of your application
-			MainPage = new ContentPage {
+			/*MainPage = new ContentPage {
 				Content = new StackLayout {
 					VerticalOptions = LayoutOptions.Center,
 					Children = {
@@ -19,7 +19,9 @@ namespace Phoneword
 						}
 					}
 				}
-			};
+			};*/
+
+			MainPage = new Phoneword.MainPage ();
 		}
 
 		protected override void OnStart ()
